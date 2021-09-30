@@ -9,6 +9,7 @@ to suit the needs of the Meraki network.
 
 * Josh Ingeniero (jingenie@cisco.com)
 * Monica Acosta (moacosta@cisco.com)
+* Jorge Banegas (jbanegas@cisco.com)
 
 ## Solution Components
 * Python
