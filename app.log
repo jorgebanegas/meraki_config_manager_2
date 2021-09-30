@@ -1,0 +1,932 @@
+2021-09-13 10:06:58,418 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-13 10:07:08,659 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 10:07:08,723 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET /static/css/cui-standard.min.css HTTP/1.1[0m" 200 -
+2021-09-13 10:07:08,728 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET /static/img/branding.png HTTP/1.1[0m" 200 -
+2021-09-13 10:07:08,762 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET /static/fonts/CiscoSans/CiscoSansTTExtraLight.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:08,763 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET /static/fonts/CiscoSans/CiscoSansTTLight.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:08,763 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:08] "[37mGET /static/fonts/CiscoSans/CiscoSansTTRegular.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:16,431 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:16] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-13 10:07:16,477 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:16] "[37mGET /static/fonts/CiscoSans/CiscoSansTTThin.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:16,477 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:16] "[37mGET /static/fonts/cui-font.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:16,478 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:16] "[37mGET /static/fonts/CiscoSans/CiscoSansTTBold.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 10:07:29,031 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-13 10:07:29,032 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-13 10:07:30,185 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 10:07:30,185 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-13 10:07:30,185 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-13 10:07:31,065 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 10:07:31,065 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-13 10:07:31,066 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-13 10:07:31,808 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 10:07:31,808 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-13 10:07:31,809 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-13 10:07:32,410 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-13 10:07:32,410 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-13 10:07:32,411 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-13 10:07:33,002 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-13 10:07:33,020 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-13 10:07:33,020 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-13 10:07:33,638 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 10:07:33,638 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-13 10:07:33,638 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-13 10:07:34,767 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-13 10:07:34,768 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-13 10:07:34,768 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-13 10:07:35,380 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 10:07:35,385 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174015396', 'params': None}
+2021-09-13 10:07:35,385 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396
+2021-09-13 10:07:36,198 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 10:07:36,198 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174015396/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-13 10:07:36,198 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/appliance/firewall/l7FirewallRules
+2021-09-13 10:07:37,121 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 10:07:37,122 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174015396/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-13 10:07:37,122 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/appliance/firewall/oneToOneNatRules
+2021-09-13 10:07:37,834 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 10:07:37,834 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174015396/wireless/settings', 'params': None}
+2021-09-13 10:07:37,834 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/wireless/settings
+2021-09-13 10:07:38,655 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-13 10:07:38,656 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174015396/wireless/ssids', 'params': None}
+2021-09-13 10:07:38,656 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/wireless/ssids
+2021-09-13 10:07:39,284 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-13 10:07:39,298 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174015396/appliance/security/malware', 'params': None}
+2021-09-13 10:07:39,298 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/appliance/security/malware
+2021-09-13 10:07:40,296 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 10:07:40,296 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174015396/switch/portSchedules', 'params': None}
+2021-09-13 10:07:40,297 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/switch/portSchedules
+2021-09-13 10:07:40,908 - meraki - ERROR - switch, getNetworkSwitchPortSchedules - 400 Bad Request, {'errors': ['This endpoint only supports MS networks']}
+2021-09-13 10:07:40,909 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174015396/switch/accessControlLists', 'params': None}
+2021-09-13 10:07:40,909 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015396/switch/accessControlLists
+2021-09-13 10:07:41,622 - meraki - ERROR - switch, getNetworkSwitchAccessControlLists - 400 Bad Request, {'errors': ['This endpoint only supports MS networks']}
+2021-09-13 10:07:41,622 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174015557', 'params': None}
+2021-09-13 10:07:41,622 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557
+2021-09-13 10:07:42,748 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 10:07:42,749 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174015557/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-13 10:07:42,749 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/appliance/firewall/l7FirewallRules
+2021-09-13 10:07:43,673 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 10:07:43,674 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174015557/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-13 10:07:43,674 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/appliance/firewall/oneToOneNatRules
+2021-09-13 10:07:44,390 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 10:07:44,391 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174015557/wireless/settings', 'params': None}
+2021-09-13 10:07:44,391 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/wireless/settings
+2021-09-13 10:07:44,953 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-13 10:07:44,954 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174015557/wireless/ssids', 'params': None}
+2021-09-13 10:07:44,954 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/wireless/ssids
+2021-09-13 10:07:46,030 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-13 10:07:46,041 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174015557/appliance/security/malware', 'params': None}
+2021-09-13 10:07:46,041 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/appliance/security/malware
+2021-09-13 10:07:46,949 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 10:07:46,949 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174015557/switch/portSchedules', 'params': None}
+2021-09-13 10:07:46,949 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/switch/portSchedules
+2021-09-13 10:07:47,590 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-13 10:07:47,590 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174015557/switch/accessControlLists', 'params': None}
+2021-09-13 10:07:47,590 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015557/switch/accessControlLists
+2021-09-13 10:07:48,533 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 10:07:50,536 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 10:07:50] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-13 12:16:10,218 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 12:16:10] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 12:16:12,862 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 12:16:12] "[37mGET /restore HTTP/1.1[0m" 200 -
+2021-09-13 16:32:00,151 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:00] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 16:32:00,226 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:00] "[37mGET /static/img/branding.png HTTP/1.1[0m" 200 -
+2021-09-13 16:32:00,268 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:00] "[37mGET /static/fonts/CiscoSans/CiscoSansTTExtraLight.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 16:32:00,275 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:00] "[37mGET /static/fonts/CiscoSans/CiscoSansTTRegular.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 16:32:04,744 - app - ERROR - Exception on /restore [GET]
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 162, in request
+    response = self._req_session.request(method, abs_url, allow_redirects=False, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/app/routes.py", line 76, in restore
+    for network in dashboard.organizations.getOrganizationNetworks(org_id):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/api/organizations.py", line 1033, in getOrganizationNetworks
+    return self._session.get_pages(metadata, resource, params, total_pages, direction)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 282, in get_pages
+    response = self.request(metadata, 'GET', url, params=params)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 171, in request
+    raise APIError(metadata, response)
+meraki.exceptions.APIError: organizations, getOrganizationNetworks - None None, None
+2021-09-13 16:32:04,771 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:04] "[35m[1mGET /restore HTTP/1.1[0m" 500 -
+2021-09-13 16:32:04,813 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2021-09-13 16:32:12,700 - app - ERROR - Exception on /restore [GET]
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 162, in request
+    response = self._req_session.request(method, abs_url, allow_redirects=False, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/app/routes.py", line 76, in restore
+    for network in dashboard.organizations.getOrganizationNetworks(org_id):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/api/organizations.py", line 1033, in getOrganizationNetworks
+    return self._session.get_pages(metadata, resource, params, total_pages, direction)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 282, in get_pages
+    response = self.request(metadata, 'GET', url, params=params)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 171, in request
+    raise APIError(metadata, response)
+meraki.exceptions.APIError: organizations, getOrganizationNetworks - None None, None
+2021-09-13 16:32:12,703 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:12] "[35m[1mGET /restore HTTP/1.1[0m" 500 -
+2021-09-13 16:32:18,471 - app - ERROR - Exception on /restore [GET]
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 162, in request
+    response = self._req_session.request(method, abs_url, allow_redirects=False, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/app/routes.py", line 76, in restore
+    for network in dashboard.organizations.getOrganizationNetworks(org_id):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/api/organizations.py", line 1033, in getOrganizationNetworks
+    return self._session.get_pages(metadata, resource, params, total_pages, direction)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 282, in get_pages
+    response = self.request(metadata, 'GET', url, params=params)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 171, in request
+    raise APIError(metadata, response)
+meraki.exceptions.APIError: organizations, getOrganizationNetworks - None None, None
+2021-09-13 16:32:18,472 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:18] "[35m[1mGET /restore HTTP/1.1[0m" 500 -
+2021-09-13 16:32:27,810 - app - ERROR - Exception on /backup [GET]
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 162, in request
+    response = self._req_session.request(method, abs_url, allow_redirects=False, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/app/routes.py", line 51, in backup
+    for network in dashboard.organizations.getOrganizationNetworks(org_id):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/api/organizations.py", line 1033, in getOrganizationNetworks
+    return self._session.get_pages(metadata, resource, params, total_pages, direction)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 282, in get_pages
+    response = self.request(metadata, 'GET', url, params=params)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 171, in request
+    raise APIError(metadata, response)
+meraki.exceptions.APIError: organizations, getOrganizationNetworks - None None, None
+2021-09-13 16:32:27,812 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:27] "[35m[1mGET /backup HTTP/1.1[0m" 500 -
+2021-09-13 16:32:42,275 - app - ERROR - Exception on /backup [GET]
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+OSError: [Errno 0] Error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/connection.py", line 371, in connect
+    ssl_context=context,
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/urllib3/util/ssl_.py", line 384, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 423, in wrap_socket
+    session=session
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 870, in _create
+    self.do_handshake()
+  File "/usr/local/Cellar/python/3.7.6_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/ssl.py", line 1139, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 162, in request
+    response = self._req_session.request(method, abs_url, allow_redirects=False, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', OSError(0, 'Error'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/app/routes.py", line 51, in backup
+    for network in dashboard.organizations.getOrganizationNetworks(org_id):
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/api/organizations.py", line 1033, in getOrganizationNetworks
+    return self._session.get_pages(metadata, resource, params, total_pages, direction)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 282, in get_pages
+    response = self.request(metadata, 'GET', url, params=params)
+  File "/Users/jbanegas/Desktop/meraki-config-manager-master/env/lib/python3.7/site-packages/meraki/rest_session.py", line 171, in request
+    raise APIError(metadata, response)
+meraki.exceptions.APIError: organizations, getOrganizationNetworks - None None, None
+2021-09-13 16:32:42,277 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:32:42] "[35m[1mGET /backup HTTP/1.1[0m" 500 -
+2021-09-13 16:33:08,659 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:08] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 16:33:21,636 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:21] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 16:33:24,505 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:24] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-13 16:33:24,649 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:24] "[37mGET /static/fonts/CiscoSans/CiscoSansTTThin.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 16:33:24,651 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:24] "[37mGET /static/fonts/CiscoSans/CiscoSansTTBold.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 16:33:24,652 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:24] "[37mGET /static/fonts/cui-font.woff2 HTTP/1.1[0m" 200 -
+2021-09-13 16:33:30,563 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:30] "[37mGET /restore HTTP/1.1[0m" 200 -
+2021-09-13 16:33:43,773 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-13 16:33:43,774 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-13 16:33:44,831 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 16:33:44,832 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'updateNetworkApplianceFirewallL7FirewallRules', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'json': {'rules': []}}
+2021-09-13 16:33:44,833 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-13 16:33:45,512 - meraki - INFO - appliance, updateNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 16:33:45,513 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'updateNetworkApplianceFirewallOneToOneNatRules', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'json': {'rules': []}}
+2021-09-13 16:33:45,513 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-13 16:33:46,649 - meraki - INFO - appliance, updateNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 16:33:51,967 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'updateNetworkApplianceSecurityMalware', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'json': {'allowedUrls': [], 'allowedFiles': [], 'mode': 'disabled'}}
+2021-09-13 16:33:51,968 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-13 16:33:53,091 - meraki - INFO - appliance, updateNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 16:33:53,092 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'updateNetworkSwitchAccessControlLists', 'method': 'PUT', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'json': {'rules': []}}
+2021-09-13 16:33:53,092 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-13 16:33:53,810 - meraki - INFO - switch, updateNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 16:33:54,321 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:33:54] "[37mPOST /restore HTTP/1.1[0m" 200 -
+2021-09-13 16:49:16,032 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:49:16] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 16:49:18,063 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:49:18] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-13 16:49:22,364 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-13 16:49:22,365 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-13 16:49:23,181 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 16:49:23,183 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-13 16:49:23,183 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-13 16:49:24,205 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 16:49:24,205 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-13 16:49:24,205 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-13 16:49:24,717 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 16:49:24,720 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-13 16:49:24,720 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-13 16:49:25,229 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-13 16:49:25,230 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-13 16:49:25,230 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-13 16:49:25,826 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-13 16:49:25,839 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-13 16:49:25,839 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-13 16:49:26,330 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 16:49:26,331 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-13 16:49:26,331 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-13 16:49:26,868 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-13 16:49:26,869 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-13 16:49:26,869 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-13 16:49:27,380 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 16:49:27,892 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 16:49:27] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-13 17:02:28,364 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:02:28] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 17:02:38,332 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:02:38] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-13 17:02:45,001 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-13 17:02:45,002 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-13 17:02:46,285 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 17:02:46,286 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-13 17:02:46,286 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-13 17:02:46,925 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 17:02:46,926 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-13 17:02:46,926 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-13 17:02:47,520 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 17:02:47,521 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-13 17:02:47,521 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-13 17:02:48,160 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-13 17:02:48,160 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-13 17:02:48,160 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-13 17:02:49,669 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-13 17:02:49,681 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-13 17:02:49,682 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-13 17:02:51,251 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 17:02:51,252 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-13 17:02:51,252 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-13 17:02:52,056 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-13 17:02:52,056 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-13 17:02:52,057 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-13 17:02:52,846 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 17:02:53,396 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:02:53] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-13 17:03:54,716 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:03:54] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-13 17:03:57,459 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:03:57] "[37mGET /restore HTTP/1.1[0m" 200 -
+2021-09-13 17:06:07,013 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-13 17:06:07,013 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-13 17:06:08,228 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-13 17:06:08,230 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'updateNetworkApplianceFirewallL7FirewallRules', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'json': {'rules': []}}
+2021-09-13 17:06:08,230 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-13 17:06:09,114 - meraki - INFO - appliance, updateNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-13 17:06:09,115 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'updateNetworkApplianceFirewallOneToOneNatRules', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'json': {'rules': []}}
+2021-09-13 17:06:09,115 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-13 17:06:10,206 - meraki - INFO - appliance, updateNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-13 17:06:15,845 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'updateNetworkApplianceSecurityMalware', 'method': 'PUT', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'json': {'allowedUrls': [], 'allowedFiles': [], 'mode': 'disabled'}}
+2021-09-13 17:06:15,845 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-13 17:06:16,854 - meraki - INFO - appliance, updateNetworkApplianceSecurityMalware - 200 OK
+2021-09-13 17:06:16,855 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'updateNetworkSwitchAccessControlLists', 'method': 'PUT', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'json': {'rules': []}}
+2021-09-13 17:06:16,855 - meraki - INFO - PUT https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-13 17:06:17,425 - meraki - INFO - switch, updateNetworkSwitchAccessControlLists - 200 OK
+2021-09-13 17:06:17,873 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:06:17] "[37mPOST /restore HTTP/1.1[0m" 200 -
+2021-09-13 17:12:35,844 - werkzeug - INFO - 127.0.0.1 - - [13/Sep/2021 17:12:35] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-30 08:24:30,725 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 09:11:51,163 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 09:17:24,762 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:24] "[37mGET / HTTP/1.1[0m" 200 -
+2021-09-30 09:17:24,907 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:24] "[37mGET /static/css/cui-standard.min.css HTTP/1.1[0m" 200 -
+2021-09-30 09:17:24,915 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:24] "[37mGET /static/img/branding.png HTTP/1.1[0m" 200 -
+2021-09-30 09:17:25,002 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:25] "[37mGET /static/fonts/CiscoSans/CiscoSansTTLight.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:25,003 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:25] "[37mGET /static/fonts/CiscoSans/CiscoSansTTExtraLight.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:25,012 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:25] "[37mGET /static/fonts/CiscoSans/CiscoSansTTRegular.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:27,192 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:27] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:17:27,285 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:27] "[37mGET /static/fonts/cui-font.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:27,286 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:27] "[37mGET /static/fonts/CiscoSans/CiscoSansTTBold.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:27,287 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:17:27] "[37mGET /static/fonts/CiscoSans/CiscoSansTTThin.woff2 HTTP/1.1[0m" 200 -
+2021-09-30 09:17:30,907 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 09:17:30,907 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 09:18:32,214 - meraki - WARNING - networks, getNetwork - HTTPSConnectionPool(host='api.meraki.com', port=443): Read timed out. (read timeout=60), retrying in 1 second
+2021-09-30 09:18:33,216 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 09:18:34,246 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 09:18:34,247 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 09:18:34,247 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 09:18:34,587 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 09:18:34,587 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 09:18:34,588 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 09:18:34,945 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 09:18:34,945 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 09:18:34,946 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 09:18:35,598 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 09:18:35,598 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 09:18:35,599 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 09:18:35,999 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 09:18:36,028 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 09:18:36,029 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 09:18:36,374 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 09:18:36,374 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 09:18:36,374 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 09:18:36,704 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 09:18:36,704 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 09:18:36,704 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 09:18:37,264 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 09:18:37,265 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 09:18:37,265 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 09:18:37,858 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 09:18:37,859 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 09:18:37,859 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 09:18:38,544 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 09:19:40,232 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:19:40] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:25:28,076 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:25:28] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:25:35,146 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 09:25:35,147 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 09:25:36,785 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 09:25:36,785 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 09:25:36,785 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 09:25:38,112 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 09:25:38,113 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 09:25:38,113 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 09:25:39,338 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 09:25:39,339 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 09:25:39,339 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 09:25:39,899 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 09:25:39,899 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 09:25:39,900 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 09:25:40,262 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 09:25:40,285 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 09:25:40,285 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 09:26:40,292 - meraki - WARNING - appliance, getNetworkApplianceSecurityMalware - HTTPSConnectionPool(host='api.meraki.com', port=443): Read timed out. (read timeout=60), retrying in 1 second
+2021-09-30 09:26:41,297 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 09:26:42,148 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 09:26:42,148 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 09:26:42,149 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 09:26:42,531 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 09:26:42,531 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 09:26:42,531 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 09:26:44,201 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 09:26:44,202 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 09:26:44,202 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 09:26:46,795 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 09:26:46,798 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 09:26:46,798 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 09:26:47,376 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 09:26:48,440 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:26:48] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:33:03,816 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 09:33:07,891 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:33:07] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:33:38,286 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 09:33:38,287 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 09:33:38,990 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 09:33:38,992 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 09:33:38,992 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 09:33:39,358 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 09:33:39,359 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 09:33:39,359 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 09:33:39,688 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 09:33:39,689 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 09:33:39,689 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 09:33:40,008 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 09:33:40,009 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 09:33:40,009 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 09:33:40,353 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 09:33:40,388 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 09:33:40,389 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 09:33:40,715 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 09:33:40,716 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 09:33:40,716 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 09:33:41,094 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 09:33:41,095 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 09:33:41,095 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 09:33:41,492 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 09:33:41,493 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 09:33:41,493 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 09:33:43,816 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 09:33:43,818 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 09:33:43,818 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 09:33:44,782 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 09:33:45,105 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:33:45] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:41:02,657 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 09:41:06,738 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:41:06] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-30 09:41:10,691 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 09:41:10,692 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 09:41:11,297 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 09:41:11,298 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 09:41:11,298 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 09:41:11,655 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 09:41:11,656 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 09:41:11,656 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 09:41:12,092 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 09:41:12,093 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 09:41:12,093 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 09:41:12,449 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 09:41:12,449 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 09:41:12,450 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 09:41:12,825 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 09:41:12,851 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 09:41:12,851 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 09:41:13,168 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 09:41:13,169 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 09:41:13,169 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 09:41:13,518 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 09:41:13,519 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 09:41:13,519 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 09:41:13,953 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 09:41:13,953 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 09:41:13,954 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 09:41:14,642 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 09:41:14,643 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 09:41:14,644 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 09:41:14,958 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 09:41:16,187 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 09:41:16] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:32:52,489 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 14:32:58,401 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 14:32:58] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:33:08,175 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 14:33:08,176 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 14:33:09,244 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 14:33:09,245 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 14:33:09,246 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 14:33:09,879 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 14:33:09,880 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 14:33:09,880 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 14:33:10,218 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 14:33:10,218 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 14:33:10,219 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 14:33:11,447 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 14:33:11,447 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 14:33:11,448 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 14:33:12,343 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 14:33:12,464 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 14:33:12,464 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 14:33:13,394 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 14:33:13,395 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 14:33:13,395 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 14:33:13,832 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 14:33:13,834 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:33:13,834 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:33:14,251 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:33:14,252 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 14:33:14,252 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 14:33:14,983 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 14:33:14,983 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:33:14,984 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:33:15,442 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:33:15,443 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 14:33:15,443 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 14:33:15,954 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 14:33:15,963 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174015493', 'params': None}
+2021-09-30 14:33:15,964 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493
+2021-09-30 14:33:17,301 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 14:33:17,302 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174015493/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 14:33:17,302 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/appliance/firewall/l7FirewallRules
+2021-09-30 14:33:18,002 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 14:33:18,002 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174015493/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 14:33:18,003 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/appliance/firewall/oneToOneNatRules
+2021-09-30 14:33:18,395 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 14:33:18,395 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174015493/wireless/settings', 'params': None}
+2021-09-30 14:33:18,395 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/wireless/settings
+2021-09-30 14:33:20,496 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 14:33:20,497 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174015493/wireless/ssids', 'params': None}
+2021-09-30 14:33:20,497 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/wireless/ssids
+2021-09-30 14:33:20,886 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 14:33:20,960 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174015493/appliance/security/malware', 'params': None}
+2021-09-30 14:33:20,960 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/appliance/security/malware
+2021-09-30 14:33:21,725 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 14:33:21,725 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174015493/switch/portSchedules', 'params': None}
+2021-09-30 14:33:21,726 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/switch/portSchedules
+2021-09-30 14:33:22,044 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 14:33:22,044 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174015493/devices', 'params': None}
+2021-09-30 14:33:22,045 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/devices
+2021-09-30 14:33:22,901 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:33:22,902 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2CX-NWAJ-L67B/switch/ports', 'params': None}
+2021-09-30 14:33:22,902 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2CX-NWAJ-L67B/switch/ports
+2021-09-30 14:33:23,658 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 14:33:23,659 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174015493/devices', 'params': None}
+2021-09-30 14:33:23,659 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/devices
+2021-09-30 14:33:24,146 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:33:24,147 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174015493/switch/accessControlLists', 'params': None}
+2021-09-30 14:33:24,147 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174015493/switch/accessControlLists
+2021-09-30 14:33:24,658 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 14:33:25,904 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 14:33:25] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:35:33,598 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 14:35:33] "[37mGET /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:35:40,215 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 14:35:40,216 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 14:35:40,951 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 14:35:40,951 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 14:35:40,951 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 14:35:41,359 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 14:35:41,360 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 14:35:41,360 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 14:35:41,703 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 14:35:41,704 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 14:35:41,704 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 14:35:42,076 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 14:35:42,077 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 14:35:42,077 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 14:35:42,459 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 14:35:42,523 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 14:35:42,524 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 14:35:43,407 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 14:35:43,408 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 14:35:43,408 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 14:35:43,777 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 14:35:43,778 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:35:43,778 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:35:44,228 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:35:44,228 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 14:35:44,228 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 14:35:44,943 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 14:35:44,945 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:35:44,946 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:35:45,455 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:35:45,456 - meraki - DEBUG - {'tags': ['camera', 'configure', 'qualityAndRetention'], 'operation': 'getDeviceCameraQualityAndRetention', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/qualityAndRetention', 'params': None}
+2021-09-30 14:35:45,456 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/qualityAndRetention
+2021-09-30 14:35:46,038 - meraki - INFO - camera, getDeviceCameraQualityAndRetention - 200 OK
+2021-09-30 14:35:46,038 - meraki - DEBUG - {'tags': ['camera', 'configure', 'sense'], 'operation': 'getDeviceCameraSense', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/sense', 'params': None}
+2021-09-30 14:35:46,038 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/sense
+2021-09-30 14:35:46,684 - meraki - INFO - camera, getDeviceCameraSense - 200 OK
+2021-09-30 14:35:46,684 - meraki - DEBUG - {'tags': ['camera', 'configure', 'video', 'settings'], 'operation': 'getDeviceCameraVideoSettings', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/video/settings', 'params': None}
+2021-09-30 14:35:46,685 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/video/settings
+2021-09-30 14:35:47,300 - meraki - INFO - camera, getDeviceCameraVideoSettings - 200 OK
+2021-09-30 14:35:47,300 - meraki - DEBUG - {'tags': ['camera', 'configure', 'videoLink'], 'operation': 'getDeviceCameraVideoLink', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/videoLink', 'params': {}}
+2021-09-30 14:35:47,300 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/videoLink
+2021-09-30 14:35:47,708 - meraki - INFO - camera, getDeviceCameraVideoLink - 200 OK
+2021-09-30 14:35:47,708 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 14:35:47,709 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 14:35:48,050 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 14:35:48,425 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 14:35:48] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:37:27,972 - meraki - DEBUG - {'tags': ['networks', 'configure'], 'operation': 'getNetwork', 'method': 'GET', 'url': '/networks/L_686798943174010154', 'params': None}
+2021-09-30 14:37:27,974 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 14:38:27,980 - meraki - WARNING - networks, getNetwork - HTTPSConnectionPool(host='api.meraki.com', port=443): Read timed out. (read timeout=60), retrying in 1 second
+2021-09-30 14:38:28,982 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154
+2021-09-30 14:38:30,817 - meraki - INFO - networks, getNetwork - 200 OK
+2021-09-30 14:38:30,819 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'l7FirewallRules'], 'operation': 'getNetworkApplianceFirewallL7FirewallRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/l7FirewallRules', 'params': None}
+2021-09-30 14:38:30,819 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/l7FirewallRules
+2021-09-30 14:38:31,254 - meraki - INFO - appliance, getNetworkApplianceFirewallL7FirewallRules - 200 OK
+2021-09-30 14:38:31,254 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'firewall', 'oneToOneNatRules'], 'operation': 'getNetworkApplianceFirewallOneToOneNatRules', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules', 'params': None}
+2021-09-30 14:38:31,254 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/firewall/oneToOneNatRules
+2021-09-30 14:38:31,664 - meraki - INFO - appliance, getNetworkApplianceFirewallOneToOneNatRules - 200 OK
+2021-09-30 14:38:31,664 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'settings'], 'operation': 'getNetworkWirelessSettings', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/settings', 'params': None}
+2021-09-30 14:38:31,665 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/settings
+2021-09-30 14:38:31,984 - meraki - INFO - wireless, getNetworkWirelessSettings - 200 OK
+2021-09-30 14:38:31,986 - meraki - DEBUG - {'tags': ['wireless', 'configure', 'ssids'], 'operation': 'getNetworkWirelessSsids', 'method': 'GET', 'url': '/networks/L_686798943174010154/wireless/ssids', 'params': None}
+2021-09-30 14:38:31,987 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/wireless/ssids
+2021-09-30 14:38:32,377 - meraki - INFO - wireless, getNetworkWirelessSsids - 200 OK
+2021-09-30 14:38:32,426 - meraki - DEBUG - {'tags': ['appliance', 'configure', 'security', 'malware'], 'operation': 'getNetworkApplianceSecurityMalware', 'method': 'GET', 'url': '/networks/L_686798943174010154/appliance/security/malware', 'params': None}
+2021-09-30 14:38:32,427 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/appliance/security/malware
+2021-09-30 14:38:33,409 - meraki - INFO - appliance, getNetworkApplianceSecurityMalware - 200 OK
+2021-09-30 14:38:33,410 - meraki - DEBUG - {'tags': ['switch', 'configure', 'portSchedules'], 'operation': 'getNetworkSwitchPortSchedules', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/portSchedules', 'params': None}
+2021-09-30 14:38:33,410 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/portSchedules
+2021-09-30 14:38:33,734 - meraki - INFO - switch, getNetworkSwitchPortSchedules - 200 OK
+2021-09-30 14:38:33,734 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:38:33,734 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:38:34,128 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:38:34,129 - meraki - DEBUG - {'tags': ['switch', 'configure', 'ports'], 'operation': 'getDeviceSwitchPorts', 'method': 'GET', 'url': '/devices/Q2BX-V4FB-2YKE/switch/ports', 'params': None}
+2021-09-30 14:38:34,129 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2BX-V4FB-2YKE/switch/ports
+2021-09-30 14:38:34,746 - meraki - INFO - switch, getDeviceSwitchPorts - 200 OK
+2021-09-30 14:38:34,747 - meraki - DEBUG - {'tags': ['networks', 'configure', 'devices'], 'operation': 'getNetworkDevices', 'method': 'GET', 'url': '/networks/L_686798943174010154/devices', 'params': None}
+2021-09-30 14:38:34,747 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/devices
+2021-09-30 14:38:35,136 - meraki - INFO - networks, getNetworkDevices - 200 OK
+2021-09-30 14:38:35,136 - meraki - DEBUG - {'tags': ['camera', 'configure', 'qualityAndRetention'], 'operation': 'getDeviceCameraQualityAndRetention', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/qualityAndRetention', 'params': None}
+2021-09-30 14:38:35,137 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/qualityAndRetention
+2021-09-30 14:38:35,694 - meraki - INFO - camera, getDeviceCameraQualityAndRetention - 200 OK
+2021-09-30 14:38:35,694 - meraki - DEBUG - {'tags': ['camera', 'configure', 'sense'], 'operation': 'getDeviceCameraSense', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/sense', 'params': None}
+2021-09-30 14:38:35,695 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/sense
+2021-09-30 14:38:36,032 - meraki - INFO - camera, getDeviceCameraSense - 200 OK
+2021-09-30 14:38:36,033 - meraki - DEBUG - {'tags': ['camera', 'configure', 'video', 'settings'], 'operation': 'getDeviceCameraVideoSettings', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/video/settings', 'params': None}
+2021-09-30 14:38:36,033 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/video/settings
+2021-09-30 14:38:36,525 - meraki - INFO - camera, getDeviceCameraVideoSettings - 200 OK
+2021-09-30 14:38:36,526 - meraki - DEBUG - {'tags': ['camera', 'configure', 'videoLink'], 'operation': 'getDeviceCameraVideoLink', 'method': 'GET', 'url': '/devices/Q2FV-69JR-VYVA/camera/videoLink', 'params': {}}
+2021-09-30 14:38:36,526 - meraki - INFO - GET https://api.meraki.com/api/v1/devices/Q2FV-69JR-VYVA/camera/videoLink
+2021-09-30 14:38:36,887 - meraki - INFO - camera, getDeviceCameraVideoLink - 200 OK
+2021-09-30 14:38:36,887 - meraki - DEBUG - {'tags': ['switch', 'configure', 'accessControlLists'], 'operation': 'getNetworkSwitchAccessControlLists', 'method': 'GET', 'url': '/networks/L_686798943174010154/switch/accessControlLists', 'params': None}
+2021-09-30 14:38:36,887 - meraki - INFO - GET https://api.meraki.com/api/v1/networks/L_686798943174010154/switch/accessControlLists
+2021-09-30 14:38:37,209 - meraki - INFO - switch, getNetworkSwitchAccessControlLists - 200 OK
+2021-09-30 14:39:38,956 - werkzeug - INFO - 127.0.0.1 - - [30/Sep/2021 14:39:38] "[37mPOST /backup HTTP/1.1[0m" 200 -
+2021-09-30 14:40:44,089 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)

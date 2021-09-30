@@ -1,0 +1,4 @@
+# Meraki Details
+
+MERAKI_API_KEY = ''
+MERAKI_ORGANIZATION_ID = ''
