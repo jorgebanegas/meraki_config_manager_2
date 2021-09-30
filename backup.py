@@ -85,7 +85,7 @@ def backup(network_id):
         for device in devices:
             if device["model"].startswith("MS"):
                 temp_switches[device["serial"]] = dashboard.switch.getDeviceSwitchPorts(device["serial"])
-        data['switch_ports'] = temp
+        data['switch_ports'] = temp_switches
     except:
         print("MS is not Supported")
     
