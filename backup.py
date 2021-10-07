@@ -25,6 +25,7 @@ import logging
 import pprint
 
 import requests
+from github import Github
 
 from DETAILS import *
 
@@ -112,6 +113,37 @@ def backup(network_id):
         new = [item for item in data['switch_acls']['rules'] if not item["comment"] == 'Default rule']
         data['switch_acls'] = new
 
+        # code for github 
+
+        # using an access token
+        g = Github(GITHUB_API_TOKEN)
+        user = g.get_user()
+
+        if GITHUB_ORG_NAME == '':
+            try:
+                repo=user.create_repo('meraki_backups',private=True)
+            except:
+                repo=user.get_repo('meraki_backups')
+
+            try:
+                repo.create_file(f'configs/{name}.json','commit',json.dumps(data,indent=4))
+            except:
+                contents = repo.get_contents(f'configs/{name}.json')
+                repo.update_file(contents.path,'commit',json.dumps(data,indent=4),contents.sha)
+        else:
+            try:
+                org = g.get_organization(GITHUB_ORG_NAME)
+                repo=org.create_repo('meraki_backups',private=True)
+            except:
+                repo=org.get_repo('meraki_backups')
+
+            try:
+                repo.create_file(f'configs/{name}.json','commit',json.dumps(data,indent=4))
+            except:
+                contents = repo.get_contents(f'configs/{name}.json')
+                repo.update_file(contents.path,'commit',json.dumps(data,indent=4),contents.sha)
+
+        # testing code
         with open(f'configs/{name}.json', 'w+') as outfile:
             json.dump(data, outfile, indent=4)
     except:
