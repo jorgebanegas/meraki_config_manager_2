@@ -2,8 +2,10 @@ aiohttp==3.6.2
 async-timeout==3.0.1
 attrs==20.2.0
 certifi==2020.6.20
+cffi==1.14.6
 chardet==3.0.4
 click==7.1.2
+Deprecated==1.2.13
 Flask==1.1.2
 idna==2.10
 itsdangerous==1.1.0
@@ -11,8 +13,14 @@ Jinja2==2.11.2
 MarkupSafe==1.1.1
 meraki==1.1.0
 multidict==4.7.6
+pycparser==2.20
+PyGithub==1.55
+PyJWT==2.2.0
+PyNaCl==1.4.0
 requests==2.24.0
+six==1.16.0
 typing-extensions==3.7.4.3
 urllib3==1.25.10
 Werkzeug==1.0.1
+wrapt==1.13.1
 yarl==1.5.1
