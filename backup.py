@@ -121,9 +121,9 @@ def backup(network_id):
 
         if GITHUB_ORG_NAME == '':
             try:
-                repo=user.create_repo('meraki_backups',private=True)
+                repo=user.create_repo(REPO_NAME,private=True)
             except:
-                repo=user.get_repo('meraki_backups')
+                repo=user.get_repo(REPO_NAME)
 
             try:
                 repo.create_file(f'configs/{name}.json','commit',json.dumps(data,indent=4))
@@ -133,15 +133,19 @@ def backup(network_id):
         else:
             try:
                 org = g.get_organization(GITHUB_ORG_NAME)
-                repo=org.create_repo('meraki_backups',private=True)
+                repo=org.create_repo(REPO_NAME,private=True)
             except:
-                repo=org.get_repo('meraki_backups')
+                org = g.get_organization(GITHUB_ORG_NAME)
+                repo=org.get_repo(REPO_NAME)
+                print(repo)
 
             try:
-                repo.create_file(f'configs/{name}.json','commit',json.dumps(data,indent=4))
+                resp = repo.create_file(f'configs/{name}.json','commit',json.dumps(data,indent=4))
+                print(resp)
             except:
                 contents = repo.get_contents(f'configs/{name}.json')
-                repo.update_file(contents.path,'commit',json.dumps(data,indent=4),contents.sha)
+                resp = repo.update_file(contents.path,'commit',json.dumps(data,indent=4),contents.sha)
+                print(resp)
 
         # testing code
         with open(f'configs/{name}.json', 'w+') as outfile:
@@ -264,5 +268,76 @@ def restore(network_id, filename):
             response = dashboard.switch.updateNetworkSwitchAccessControlLists(network_id, rules=body)
         except:
             print("MS is not supported")
+        
+        print("Restoring Switch Ports")
+        try:
+            body = data['switch_ports']
+            for device in body:
+                ports = body[device]
+                for port in ports:
+                    port_number = port["portId"]
+                    port.pop('portId')
+                    url = "https://api.meraki.com/api/v1/devices/" + device + "/switch/ports/" + port_number
+
+                    payload = json.dumps(port)
+
+                    headers = {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "X-Cisco-Meraki-API-Key": MERAKI_API_KEY
+                    }
+
+                    response = requests.request('PUT', url, headers=headers, data = payload)
+
+                    print(f"Restored {port_number}, {device}")
+        except:
+            print("Error restoring switchports")
+
+        print("Restoring Cameras")
+        try:
+            body = data['cameras']
+            for camera in body:
+                settings = body[camera]
+                
+                url = "https://api.meraki.com/api/v1/devices/"+ camera +"/camera/video/settings"
+
+                payload = json.dumps(settings[2])
+
+                headers = {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "X-Cisco-Meraki-API-Key": MERAKI_API_KEY
+                    }
+
+                response = requests.request('PUT', url, headers=headers, data = payload)
+
+                url = "https://api.meraki.com/api/v1/devices/"+ camera +"/camera/sense"
+
+                payload = json.dumps(settings[1])
+
+                headers = {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "X-Cisco-Meraki-API-Key": MERAKI_API_KEY
+                    }
+
+                response = requests.request('PUT', url, headers=headers, data = payload)
+
+                url = "https://api.meraki.com/api/v1/devices/"+ camera +"/camera/qualityAndRetention"
+
+                payload = json.dumps(settings[0])
+
+                headers = {
+                        "Content-Type": "application/json",
+                        "Accept": "application/json",
+                        "X-Cisco-Meraki-API-Key": MERAKI_API_KEY
+                    }
+
+                response = requests.request('PUT', url, headers=headers, data = payload)
+
+                print(f"Restored {camera}")
+        except:
+            print("Error restoring camera")
+
 
         print("Restore Complete!")
